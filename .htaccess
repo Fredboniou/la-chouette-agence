@@ -28,11 +28,11 @@
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
 
-<FilesMatch "\\.(css)$">
+<FilesMatch "\\.(min.css)$">
 Header set Cache-Control "max-age=604800, public"
 </FilesMatch>
 
-<FilesMatch "\\.(js)$">
+<FilesMatch "\\.(min.js)$">
 Header set Cache-Control "max-age=216000, private"
 </FilesMatch>
 
