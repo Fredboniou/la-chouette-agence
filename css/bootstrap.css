@@ -8075,3 +8075,9 @@ button.close {
         display: none !important
     }
 }
+
+@media all and (max-width:768px) {
+    .img-responsive {
+        margin: auto
+    }
+}

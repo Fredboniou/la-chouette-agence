@@ -680,6 +680,19 @@ p {
     font-size: 11px;
 }
 
+.avis {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.auteur {
+    font-size: 18px;
+}
+
+.realisations {
+    font-size: 22px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
