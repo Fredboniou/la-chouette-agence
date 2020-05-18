@@ -766,7 +766,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 40px 40px 40px 40px;
 }
 
@@ -792,7 +792,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C35532;
     color: #FFFFFF!important;
 }
 
@@ -836,6 +836,19 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/presentation_la_chouette_agence.bmp");
+}
+
+a:focus {
+    border: 3px dashed black;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+}
+
+button:focus {
+    border: 3px dashed black;
 }
 
 @media (max-width: 1024px) {
