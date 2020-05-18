@@ -43,7 +43,7 @@
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="index.html">Accueil</a>
+								<a href="index.html" aria-label="Accueil : retourner à la page principale">Accueil</a>
 							</li>
 							<li>
 							</li>
@@ -87,26 +87,26 @@
 								<label>
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input id="name" class="form-control" required aria-label="Nom : entrez votre nom" aria-required="true"/>
 							</div>
 							<div class="form-group">
 								<label>
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input id="email" class="form-control" type="email" required aria-label="email : entrez votre adresse email" aria-required="true"/>
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" type="email" required id="input_504" aria-label="Comment nous avez vous connu ? : comment avez vous connu notre agence ?" aria-required="true"/>
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</label><textarea id="message" class="form-control" rows="4" cols="50" required role="textbox" aria-multiline="true" aria-required="true"></textarea>
 							</div> 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Envoyer : envoyer le formulaire de contact">
 								Envoyer
 							</button>
 						</form>
