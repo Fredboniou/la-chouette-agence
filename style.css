@@ -698,6 +698,11 @@ p {
     margin: auto auto auto auto;
 }
 
+.white-size {
+    color: white!important;
+    font-size: 15px;
+}
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
